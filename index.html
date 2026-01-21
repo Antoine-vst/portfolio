@@ -255,18 +255,22 @@
 <section id="contact">
   <h2>Contact</h2>
 
-  <form>
-    <label>Nom</label>
-    <input type="text" required>
+  <form
+  action="https://formspree.io/f/xreerdnd"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
-    <label>Email</label>
-    <input type="email" required>
-
-    <label>Message</label>
-    <textarea required></textarea>
-
-    <button type="submit">Envoyer</button>
-  </form>
 </section>
 
 </main>
