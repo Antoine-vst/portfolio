@@ -10,7 +10,7 @@ header {
     position: relative;
     background: linear-gradient(
         135deg,
-        #0d47a1 0%,
+        #0d4aa4 0%,
         #1976d2 60%,
         #42a5f5 100%
     );
@@ -127,7 +127,7 @@ nav a.active {
 
 @keyframes chute {
     to {
-        transform: translateY(100vh);
+        transform: translateY(100px);
         opacity: 0;
     }
 }
@@ -143,17 +143,8 @@ nav a.active {
     section {
         padding: 15px;
     }
+
 }
-
-.photo-profil {
-    max-width: 160px;
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto;
-}
-
-/* MENU BURGER */
-
 #menu-toggle {
     position: fixed;
     top: 20px;
@@ -199,16 +190,12 @@ html {
 }
 
 
-/* ===== BLOCS PROJETS ===== */
+
 
 .projet {
     margin: 80px auto;
     padding: 40px 25px;
-    background: linear-gradient(
-        to bottom,
-        #ffffff 0%,
-        #f5faff 100%
-    );
+    background: white;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
     position: relative;
